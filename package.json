@@ -1,0 +1,16 @@
+{
+    "name": "potion-unlock-decrypt",
+    "version": "0.0.1",
+    "description": "Decrypt utility for potion unlock",
+    "main": "index.js",
+    "repository": "https://github.com/potion-labs/potion-unlock-decrypt",
+    "author": "Potion Labs",
+    "license": "MIT",
+    "devDependencies": {
+        "fs": "^0.0.1-security",
+        "keccak256": "^1.0.6",
+        "tweetnacl": "^1.0.3",
+        "wget-improved": "^3.2.1",
+        "yargs": "^17.3.0"
+    }
+}
