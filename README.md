@@ -16,7 +16,7 @@ The main script is **downloadAndDecrypt.js** and the other 2 are given just for 
     $ yarn install
     ```
 
-2. Find the URL of the IPFS file that you want to decrypt, something like https://ipfs.io/ipfs/QmbWqxBEKC3P8tqsKc98xmWNzrzDtRLMiMPL8wBuTGsMnR (this is just an example CID fetched from the IPFS docs).
+2. We have set up a fast gateway to download the encrypted source from IPFS: `https://potion-unlock.mypinata.cloud/ipfs/QmTfDKkFaiYKp4Rsmt6im1fENAMpRyffgeXQLbRS8b4zWE`
 
 3. Then Go to the Potion Unlock website and from the **Decrypt** page copy the final secret genesis once it has reached a 100% completion. Save it in a file called _genesis_ in the root folder.
 
